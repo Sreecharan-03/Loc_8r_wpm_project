@@ -1,8 +1,108 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+/* /* Import Google Fonts
+@import url("https://fonts.googleapis.com/css?family=Lobster|Cabin:400,700");
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lobster', cursive;
+    background-color: red;
+    color: #000;
 }
 
-a {
-  color: #00B7FF;
+/* Legend styling */
+legend {
+    font-family: 'Lobster', cursive;
 }
+
+/* Navbar */
+.navbar {
+    background-color: #ad1d28;
+    border-color: #911821;
+}
+
+/* Navbar brand */
+.navbar-light .navbar-brand {
+    font-family: 'Lobster', cursive;
+    color: #fff;
+}
+
+/* Navbar toggler */
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: white;
+}
+
+/* Entire body styling */
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabin', sans-serif;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    color: #2d3a4a;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Center content for enter page */
+.enter-body {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}
+
+/* Enter page container styling */
+.enter-container {
+    background: #fff;
+    padding: 36px 28px;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(44, 62, 80, 0.18);
+    text-align: center;
+    max-width: 420px;
+    width: 100%;
+}
+
+.enter-container h1 {
+    font-size: 2.2rem;
+    color: #f76d6a;
+    font-family: 'Cabin', sans-serif;
+    margin-bottom: 24px;
+}
+
+.enter-container input[type="text"],
+.enter-container input[type="password"] {
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 20px;
+    border: 1.5px solid #f6d365;
+    border-radius: 9px;
+    font-size: 1.15rem;
+    background: #f7fafd;
+    color: #2d3a4a;
+}
+
+.enter-container input[type="text"]:focus,
+.enter-container input[type="password"]:focus {
+    border-color: #f76d6a;
+    outline: none;
+}
+
+.enter-container button,
+.enter-container input[type="submit"] {
+    background: linear-gradient(90deg, #f76d6a 0%, #fda085 100%);
+    color: #fff;
+    border: none;
+    padding: 13px 36px;
+    border-radius: 9px;
+    font-size: 1.15rem;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.10);
+    transition: background 0.2s, box-shadow 0.2s;
+}
+
+.enter-container button:hover,
+.enter-container input[type="submit"]:hover {
+    background: linear-gradient(90deg, #fda085 0%, #f76d6a 100%);
+    box-shadow: 0 4px 16px rgba(44, 62, 80, 0.15);  */
