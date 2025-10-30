@@ -35,7 +35,11 @@ const homelist = (req, res) => {
 
 /* GET 'Location info' page */
 const locationInfo = (req, res) => {
-  res.render('location-info', { title: 'Location info' });
+  res.render('location-info', {
+    title: 'Location info',
+    coords: { lat: 51.455041, lng: -0.9690884 },
+    apiKey: process.env.GOOGLE_MAPS_API_KEY
+  });
 };
 
 /* GET 'Add review' page */
@@ -45,10 +49,6 @@ const addReview = (req, res) => {
 
 module.exports = {
   homelist,
-  locationInfo: (req, res) => {
-    res.render('location-info', { title: 'Location info' });
-  },
-  addReview: (req, res) => {
-    res.render('review-form', { title: 'Add review' });
-  }
+  locationInfo,
+  addReview
 };

@@ -1,4 +1,4 @@
-/* /* Import Google Fonts
+/* Import Google Fonts */
 @import url("https://fonts.googleapis.com/css?family=Lobster|Cabin:400,700");
 
 /* Headings */
@@ -105,4 +105,80 @@ body {
 .enter-container button:hover,
 .enter-container input[type="submit"]:hover {
     background: linear-gradient(90deg, #fda085 0%, #f76d6a 100%);
-    box-shadow: 0 4px 16px rgba(44, 62, 80, 0.15);  */
+    box-shadow: 0 4px 16px rgba(44, 62, 80, 0.15);
+}
+
+/* Card styling (added per request) */
+    .card {
+            position: relative;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+            border: 1px solid rgba(0, 0, 0, .125);
+            border-radius: .25rem;
+            margin-bottom: 20px;
+            margin-top: 15px;
+    }
+
+    /* Card content and header styling to match screenshot */
+    .card .card-block {
+        padding: 16px;
+    }
+
+    .card h4 {
+        margin: 0 0 8px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #ff0000; /* red header strip */
+        color: #000;
+        padding: 8px 12px;
+        border-radius: 4px 4px 0 0;
+    }
+
+    .card h4 a {
+        font-family: 'Lobster', cursive;
+        color: #0b5ea2; /* blue-ish title color */
+        font-size: 1.4rem;
+        text-decoration: none;
+    }
+
+    .card .rating {
+        margin-left: 8px;
+    }
+
+    .card .rating i.fas,
+    .card .rating i.far {
+        color: #000; /* stars black/outline */
+        margin-left: 4px;
+    }
+
+    /* distance badge on right of header */
+    .badge-default {
+        background: transparent;
+        color: #000;
+        font-weight: 700;
+    }
+
+    /* facilities badges */
+    .facilities span.badge.badge-warning {
+        background-color: #f0c000;
+        color: #111;
+        margin-right: 6px;
+    }
+
+    /* address and spacing */
+    .card p.address {
+        margin: 8px 0 12px 0;
+        color: #2d3a4a;
+    }
+
+    /* ensure content sits below fixed navbar */
+    .container.content {
+        margin-top: 80px;
+    }

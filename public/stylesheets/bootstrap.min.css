@@ -848,6 +848,7 @@ progress {
 }
 
 .row {
+    margin: 50px;
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
     display: flex;
@@ -3506,6 +3507,7 @@ fieldset:disabled .btn {
 }
 
 .btn-primary {
+    margin: 10px;
     --bs-btn-color: #fff;
     --bs-btn-bg: #0d6efd;
     --bs-btn-border-color: #0d6efd;
@@ -4984,6 +4986,7 @@ fieldset:disabled .btn {
 }
 
 .card {
+    margin: 20px;
     --bs-card-spacer-y: 1rem;
     --bs-card-spacer-x: 1rem;
     --bs-card-title-spacer-y: 0.5rem;
